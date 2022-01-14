@@ -6,7 +6,6 @@ import Movies from './Movies'
 import {useDispatch} from 'react-redux'
 
 function Home() {
-const dispatch = useDispatch();
 
     
     
