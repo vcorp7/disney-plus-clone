@@ -6,30 +6,30 @@ function Header() {
         <Nav>
             <Logo src='/images/logo.svg' alt='LOGO'/>
             <NavMenu>
-                <a>
+                <button>
                     <img src='/images/home-icon.svg' alt='HOME'/>
                     <span>HOME</span>
-                </a>
-                <a>
+                </button>
+                <button>
                     <img src='/images/search-icon.svg' alt='SEARCH' />
                     <span>SEARCH</span>
-                </a>
-                <a>
+                </button>
+                <button>
                     <img src='/images/watchlist-icon.svg' alt='HOME'/>
                     <span>WATCHLIST</span>
-                </a>
-                <a>
+                </button>
+                <button>
                     <img src='/images/original-icon.svg' alt='WATCHLIST'/>
                     <span>ORIGINALS</span>
-                </a>
-                <a>
+                </button>
+                <button>
                     <img src='/images/movie-icon.svg' alt='MOVIES'/>
                     <span>MOVIES</span>
-                </a>
-                <a>
+                </button>
+                <button>
                     <img src='/images/series-icon.svg' alt='SERIES'/>
                     <span>SERIES</span>
-                </a>
+                </button>
            
            </NavMenu>
            <UserImg src='https://yt3.ggpht.com/yti/APfAmoEwZAam1jLLXEBvQjkUCTjFgARlaUerflyI8Q=s88-c-k-c0x00ffffff-no-rj-mo'/> 

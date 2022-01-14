@@ -15,35 +15,35 @@ function Movies() {
                 {movies && movies.map((movie)=>(
                         <Wrap key={movie.id}>
                             <Link to={'/detail/${movie.id}'}>
-                                <img src={movie.cardImg} />
+                                <img src={movie.cardImg} alt='movie_card'/>
                             </Link>
                         </Wrap>
                     ))
 
                 }
                 <Wrap>
-                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' />
+                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' alt='marvel'/>
                 </Wrap>
                 <Wrap>
-                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' />
+                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' alt='classic'/>
                 </Wrap>
                 <Wrap>
-                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' />
+                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' alt='original'/>
                 </Wrap>
                 <Wrap>
-                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' />
+                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' alt='channel'/>
                 </Wrap>
                 <Wrap>
-                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' />
+                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' alt='wars'/>
                 </Wrap>
                 <Wrap>
-                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' />
+                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' alt='star'/>
                 </Wrap>
                 <Wrap>
-                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' />
+                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' alt='fett'/>
                 </Wrap>
                 <Wrap>
-                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' />
+                    <img src='https://cnbl-cdn.bamgrid.com/assets/0b2b144caa6df79709d171894570e804514c8f200a811a4dd58cd6bbb8e7f3a5/original' alt='boba'/>
                 </Wrap>
             </Content>
         </Container>
