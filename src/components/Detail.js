@@ -5,25 +5,25 @@ function Details() {
     return (
         <Container>
             <Background>
-                <img src='/images/Bao_5.jpg' />
+                <img src='/images/Bao_5.jpg' alt='Bao5'/>
             </Background>
             <ImageTitle>
-                <img src='/images/bau_poster.png'/>
+                <img src='/images/bau_poster.png' alt='poster'/>
             </ImageTitle>
             <Controls>
                 <PlayButton>
-                    <img src='/images/play-icon-black.png' />
+                    <img src='/images/play-icon-black.png' alt='play_black'/>
                     <span>PLAY</span>
                 </PlayButton>
                 <TrailerButton>
-                    <img src='/images/play-icon-white.png' />
+                    <img src='/images/play-icon-white.png' alt='play_white'/>
                     <span>TRAILER</span>
                 </TrailerButton>
                 <AddButton>
                     <span>+</span>
                 </AddButton>
                 <GroupWatchButton>
-                    <img src='/images/group-icon.png' />
+                    <img src='/images/group-icon.png' alt='group'/>
                 </GroupWatchButton>
             </Controls>
             <SubTitle>
